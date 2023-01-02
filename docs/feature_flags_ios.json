@@ -1,7 +1,6 @@
 [
   {
     "key": "liveMatchVideoModeEnabled",
-    "value": "true",
-    "minVersion": "69"
+    "value": "false"
   }
 ]
