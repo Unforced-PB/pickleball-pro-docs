@@ -2,5 +2,9 @@
   {
     "key": "liveMatchVideoModeEnabled",
     "value": "false"
+  },
+  {
+    "key": "showDinkSignUpLink",
+    "value": "true"
   }
 ]
