@@ -6,5 +6,9 @@
   {
     "key": "showDinkSignUpLink",
     "value": "true"
+  },
+  {
+    "key": "showTrainingTab",
+    "value": "true"
   }
 ]
