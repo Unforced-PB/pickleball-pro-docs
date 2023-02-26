@@ -10,5 +10,9 @@
   {
     "key": "showTrainingTab",
     "value": "true"
+  },
+  {
+    "key": "showMePageClipsSection",
+    "value": "false"
   }
 ]
