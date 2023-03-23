@@ -2,7 +2,7 @@
   {
     "key": "liveMatchVideoModeEnabled",
     "value": "true",
-    "minVersion": "101"
+    "minVersion": "102"
   },
   {
     "key": "showDinkSignUpLink",
