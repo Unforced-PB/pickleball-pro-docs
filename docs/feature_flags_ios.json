@@ -5,10 +5,6 @@
     "minVersion": "102"
   },
   {
-    "key": "newMatchRecordScoreEnabled",
-    "value": "false"
-  },
-  {
     "key": "showDinkSignUpLink",
     "value": "true"
   },
