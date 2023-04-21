@@ -2,11 +2,12 @@
   {
     "key": "liveMatchVideoModeEnabled",
     "value": "true",
-    "minVersion": "109"
+    "minVersion": "110"
   },
   {
     "key": "newMatchRecordScoreEnabled",
-    "value": "true"
+    "value": "false",
+    "minVersion": "110"
   },
   {
     "key": "showDinkSignUpLink",
