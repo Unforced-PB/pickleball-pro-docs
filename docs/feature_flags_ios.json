@@ -1,12 +1,12 @@
 [
   {
     "key": "liveMatchVideoModeEnabled",
-    "value": "false",
+    "value": "true",
     "minVersion": "110"
   },
   {
     "key": "newMatchRecordScoreEnabled",
-    "value": "true",
+    "value": "false",
     "minVersion": "110"
   },
   {
