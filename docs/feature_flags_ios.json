@@ -20,5 +20,9 @@
   {
     "key": "showMePageClipsSection",
     "value": "true"
+  },
+  {
+    "key": "matchDetailPages",
+    "value": "overview,clips,playerImpact,winners,errors"
   }
 ]
