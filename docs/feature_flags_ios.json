@@ -7,7 +7,7 @@
   {
     "key": "newMatchRecordScoreEnabled",
     "value": "true",
-    "minVersion": "110"
+    "minVersion": "102"
   },
   {
     "key": "showDinkSignUpLink",
