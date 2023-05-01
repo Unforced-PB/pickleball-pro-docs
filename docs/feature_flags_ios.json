@@ -6,7 +6,7 @@
   },
   {
     "key": "newMatchRecordScoreEnabled",
-    "value": "false",
+    "value": "true",
     "minVersion": "110"
   },
   {
