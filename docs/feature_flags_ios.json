@@ -23,6 +23,6 @@
   },
   {
     "key": "matchDetailPages",
-    "value": "overview,clips,playerImpact,winners,errors"
+    "value": "overview,clips,breakdown"
   }
 ]
