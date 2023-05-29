@@ -24,5 +24,10 @@
   {
     "key": "matchDetailPages",
     "value": "overview,clips,breakdown"
+  },
+  {
+    "key": "rallyModeEnabled",
+    "value": "true",
+    "minVersion": "119"
   }
 ]
