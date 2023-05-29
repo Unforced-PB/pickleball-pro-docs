@@ -27,7 +27,6 @@
   },
   {
     "key": "rallyModeEnabled",
-    "value": "true",
-    "minVersion": "119"
+    "value": "true"
   }
 ]
