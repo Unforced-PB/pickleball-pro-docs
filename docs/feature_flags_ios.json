@@ -28,5 +28,9 @@
   {
     "key": "rallyModeEnabled",
     "value": "true"
+  },
+  {
+    "key": "videoOfferingsSoldOut",
+    "value": "false"
   }
 ]
