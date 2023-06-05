@@ -27,10 +27,10 @@
   },
   {
     "key": "rallyModeEnabled",
-    "value": "false"
+    "value": "true"
   },
   {
     "key": "videoOfferingsSoldOut",
-    "value": "true"
+    "value": "false"
   }
 ]
