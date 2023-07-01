@@ -36,5 +36,9 @@
   {
     "key": "showVideoUploadPublicClipsCheckbox",
     "value": "true"
+  },
+  {
+    "key": "showFeedSectionOnSocialTab",
+    "value": "true"
   }
 ]
