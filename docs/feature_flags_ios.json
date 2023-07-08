@@ -40,5 +40,9 @@
   {
     "key": "showSocialFeedSection",
     "value": "true"
+  },
+  {
+    "key": "feedPageSize",
+    "value": "10"
   }
 ]
