@@ -35,11 +35,11 @@
   },
   {
     "key": "showVideoUploadPublicClipsCheckbox",
-    "value": "true"
+    "value": "false"
   },
   {
     "key": "showSocialFeedSection",
-    "value": "true"
+    "value": "false"
   },
   {
     "key": "feedPageSize",
