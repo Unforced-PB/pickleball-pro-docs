@@ -34,6 +34,10 @@
     "value": "false"
   },
   {
+    "key": "soldOutVideoOfferingIds",
+    "value": ""
+  },
+  {
     "key": "showVideoUploadPublicClipsCheckbox",
     "value": "true"
   },
