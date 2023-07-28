@@ -7,7 +7,6 @@ servers:
 paths:
   /clips:
     get:
-      operationId: "getClips"
       responses:
         "200":
           description: "200 response"
@@ -25,7 +24,6 @@ paths:
         passthroughBehavior: "when_no_match"
         contentHandling: "CONVERT_TO_TEXT"
     post:
-      operationId: "createClip"
       requestBody:
         content:
           application/json:
@@ -77,7 +75,6 @@ paths:
         type: "mock"
   /clips/{id}:
     delete:
-      operationId: "deleteClip"
       parameters:
         - name: "id"
           in: "path"
@@ -369,7 +366,6 @@ paths:
         type: "mock"
   /feed-items:
     get:
-      operationId: "getFeedItems"
       parameters:
         - name: "after_timestamp"
           in: "query"
@@ -398,7 +394,6 @@ paths:
         contentHandling: "CONVERT_TO_TEXT"
   /leaderboard:
     get:
-      operationId: "getLeaderboard"
       parameters:
         - name: "since"
           in: "query"
@@ -423,7 +418,6 @@ paths:
         contentHandling: "CONVERT_TO_TEXT"
   /matches:
     get:
-      operationId: "getMatches"
       parameters:
         - name: "include_solo"
           in: "query"
@@ -458,7 +452,6 @@ paths:
         passthroughBehavior: "when_no_match"
         contentHandling: "CONVERT_TO_TEXT"
     post:
-      operationId: "createMatch"
       parameters:
         - name: "invite_unregistered_players"
           in: "query"
@@ -533,7 +526,6 @@ paths:
         type: "mock"
   /matches/{id}:
     delete:
-      operationId: "deleteMatch"
       parameters:
         - name: "id"
           in: "path"
@@ -579,7 +571,6 @@ paths:
         contentHandling: "CONVERT_TO_TEXT"
   /matches/{id}/details:
     get:
-      operationId: "getMatchDetails"
       parameters:
         - name: "id"
           in: "path"
@@ -604,7 +595,6 @@ paths:
         contentHandling: "CONVERT_TO_TEXT"
   /matches/{id}/invite:
     post:
-      operationId: "invitePlayersToMatch"
       parameters:
         - name: "id"
           in: "path"
@@ -650,7 +640,6 @@ paths:
         contentHandling: "CONVERT_TO_TEXT"
   /players:
     get:
-      operationId: "getPlayers"
       parameters:
         - name: "include_owners"
           in: "query"
@@ -693,7 +682,6 @@ paths:
         passthroughBehavior: "when_no_match"
         contentHandling: "CONVERT_TO_TEXT"
     post:
-      operationId: "createPlayer"
       requestBody:
         content:
           application/json:
@@ -763,7 +751,6 @@ paths:
         type: "mock"
   /players/{id}:
     put:
-      operationId: "editPlayer"
       parameters:
         - name: "id"
           in: "path"
@@ -827,7 +814,6 @@ paths:
         passthroughBehavior: "when_no_match"
         contentHandling: "CONVERT_TO_TEXT"
     delete:
-      operationId: "deletePlayer"
       parameters:
         - name: "id"
           in: "path"
@@ -873,7 +859,6 @@ paths:
         contentHandling: "CONVERT_TO_TEXT"
   /stats:
     get:
-      operationId: "getStats"
       responses:
         "200":
           description: "200 response"
@@ -892,7 +877,6 @@ paths:
         contentHandling: "CONVERT_TO_TEXT"
   /users:
     get:
-      operationId: "getUser"
       responses:
         "200":
           description: "200 response"
