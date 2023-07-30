@@ -1137,6 +1137,21 @@ components:
           $ref: "#/components/schemas/MatchDetailsOverview"
         clips_data:
           $ref: "#/components/schemas/MatchDetailsClips"
+        kudos_data:
+          type: "object"
+          properties:
+            least_errors_player_ids:
+              type: array
+              items:
+                type: "string"
+            most_winners_player_ids:
+              type: array
+              items:
+                type: "string"
+            player_of_the_game_player_ids:
+              type: array
+              items:
+                type: "string"
     MatchDetailsOverview:
       type: "object"
       properties:
