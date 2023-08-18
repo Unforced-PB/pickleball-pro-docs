@@ -31,7 +31,7 @@
   },
   {
     "key": "videoOfferingsSoldOut",
-    "value": "false"
+    "value": "true"
   },
   {
     "key": "videoOfferingsSoldOutOfferingIds",
