@@ -31,11 +31,11 @@
   },
   {
     "key": "videoOfferingsSoldOut",
-    "value": "false"
+    "value": "true"
   },
   {
     "key": "videoOfferingsSoldOutOfferingIds",
-    "value": ""
+    "value": "asa,combo,eor"
   },
   {
     "key": "showVideoUploadPublicClipsCheckbox",
