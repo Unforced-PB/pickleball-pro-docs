@@ -48,5 +48,10 @@
   {
     "key": "feedPageSize",
     "value": "10"
+  },
+  {
+    "key": "automatedVideoAnalysis",
+    "value": "true",
+    "minVersion": "160"
   }
 ]
