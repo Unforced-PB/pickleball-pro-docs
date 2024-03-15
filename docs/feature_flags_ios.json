@@ -43,7 +43,7 @@
   },
   {
     "key": "showSocialFeedSection",
-    "value": "false"
+    "value": "true"
   },
   {
     "key": "feedPageSize",
