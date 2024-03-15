@@ -19,7 +19,7 @@
   },
   {
     "key": "showMePageClipsSection",
-    "value": "true"
+    "value": "false"
   },
   {
     "key": "matchDetailPages",
@@ -43,7 +43,7 @@
   },
   {
     "key": "showSocialFeedSection",
-    "value": "true"
+    "value": "false"
   },
   {
     "key": "feedPageSize",
