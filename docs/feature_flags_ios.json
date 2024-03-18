@@ -53,5 +53,9 @@
     "key": "automatedVideoAnalysis",
     "value": "true",
     "minVersion": "160"
+  },
+  {
+    "key": "onboardingPages",
+    "value": "logo,social,stats,newMatch"
   }
 ]
