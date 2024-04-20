@@ -26,6 +26,10 @@
     "value": "overview,clips,kudos,breakdown"
   },
   {
+    "key": "asaMmatchDetailsPages",
+    "value": "summary,serves,returns,thirds,allShots"
+  },
+  {
     "key": "rallyModeEnabled",
     "value": "true"
   },
