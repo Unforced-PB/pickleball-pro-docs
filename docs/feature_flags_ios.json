@@ -22,6 +22,10 @@
     "value": "false"
   },
   {
+    "key": "showStatsPageMeSection",
+    "value": "false"
+  },
+  {
     "key": "matchDetailPages",
     "value": "overview,clips,kudos,breakdown"
   },
