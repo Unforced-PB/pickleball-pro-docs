@@ -55,7 +55,7 @@
   },
   {
     "key": "showSocialLeaderboardSection",
-    "value": "true"
+    "value": "false"
   },
   {
     "key": "feedPageSize",
