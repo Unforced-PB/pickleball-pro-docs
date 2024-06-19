@@ -67,6 +67,10 @@
     "minVersion": "160"
   },
   {
+    "key": "videoAnalysisNewBadgeEnabled",
+    "value": "true"
+  },
+  {
     "key": "onboardingPages",
     "value": "logo,insights,impact,improvement"
   }
