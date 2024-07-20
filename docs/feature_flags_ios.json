@@ -73,5 +73,9 @@
   {
     "key": "onboardingPages",
     "value": "logo,insights,impact,improvement"
+  },
+  {
+    "key": "showOnboardingPaywall",
+    "value": "true"
   }
 ]
