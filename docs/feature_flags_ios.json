@@ -76,6 +76,6 @@
   },
   {
     "key": "showOnboardingPaywall",
-    "value": "true"
+    "value": "false"
   }
 ]
