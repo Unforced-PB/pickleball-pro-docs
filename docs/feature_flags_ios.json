@@ -76,7 +76,7 @@
   },
   {
     "key": "showOnboardingPaywall",
-    "value": "true"
+    "value": "false"
   },
   {
     "key": "paywallOfferingId",
