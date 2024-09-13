@@ -16,10 +16,11 @@ automated analysis.
 
 ## High-Level: How does this work?
 
-Unforced Pickleball uses Amazon's AWS S3 service to store videos. While, for
-obvious security reasons, our S3 bucket is private, we've provided a REST API
-endpoint that enables video-providers authorized access to upload videos to our
-S3 bucket.
+Unforced Pickleball uses Amazon's [AWS S3](https://docs.aws.amazon.com/s3/)
+service to store videos. For security and privacy reasons, our S3 bucket is
+private - but we've provided a REST API endpoint that enables video-providers
+authorized access to upload videos by
+using [presigned URLs](https://docs.aws.amazon.com/AmazonS3/latest/userguide/PresignedUrlUploadObject.html).
 
 This REST endpoint uses a simple shared API key to authenticate the
 video-provider, and returns a pre-signed URL that the video-provider can use to
