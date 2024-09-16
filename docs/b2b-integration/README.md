@@ -50,7 +50,7 @@ the key and generate a new one for you.
 One you've received an authorized API key, you can then use it in your
 application to generate a pre-signed URL that can be used to upload videos to
 our S3 bucket. The following is an example of how you can use the API key to
-generate a pre-signed URL:
+generate a pre-signed URL: 
 
 ```curl
 curl -X POST -H "X-API-Key: <API_KEY>" https://api.unforcedpickleball.com/video-upload-presigned-url
