@@ -74,13 +74,15 @@ to the user.
 ## Sending the email to the user
 
 Once you've successfully uploaded the video to our S3 bucket, you can then send
-an email to the user containing a deep-link, formatted like this:
+an email to the user containing a formatted deep-link. Your email may look like
+the following:
 
 ```
-https://unforcedpickleball.com/app-redirect?deep_link=unforcedpb%3A//new-match/video-analysis/<OBJECT_KEY>
+... Heading, business icons, styling, etc ...
+To receive stats and analysis from Unforced Pickleball, tap <a href="https://unforcedpickleball.com/app-redirect?deep_link=unforcedpb%3A//new-match/video-analysis/<OBJECT_KEY>">this link</a> to submit for processing.
 ```
 
-where <OBJECT_KEY> is replaced with the object_key that you received in the
+where `<OBJECT_KEY>` is replaced with the object_key that you received in the
 response from the pre-signed URL generation.
 
 Your email may look however you'd like it to, but please indicate that by
