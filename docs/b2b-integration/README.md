@@ -50,7 +50,7 @@ the key and generate a new one for you.
 One you've received an authorized API key, you can then use it in your
 application to generate a pre-signed URL that can be used to upload videos to
 our S3 bucket. The following is an example of how you can use the API key to
-generate a pre-signed URL: 
+generate a pre-signed URL:
 
 ```curl
 curl -X POST -H "X-API-Key: <API_KEY>" https://api.unforcedpickleball.com/video-upload-presigned-url
@@ -74,17 +74,23 @@ to the user.
 ## Sending the email to the user
 
 Once you've successfully uploaded the video to our S3 bucket, you can then send
-an email to the user containing a formatted deep-link. Your email may look like
-the following:
+an email to the user containing a deep-link formatted like this:
 
 ```
-... Heading, business icons, styling, etc ...
-To receive stats and analysis from Unforced Pickleball, tap <a href="https://unforcedpickleball.com/app-redirect?deep_link=unforcedpb%3A//new-match/video-analysis/<OBJECT_KEY>">this link</a> to submit for processing.
+https://unforcedpickleball.com/app-redirect?deep_link=unforcedpb%3A//new-match/video-analysis/<OBJECT_KEY>
 ```
 
 where `<OBJECT_KEY>` is replaced with the object_key that you received in the
 response from the pre-signed URL generation.
 
-Your email may look however you'd like it to, but please indicate that by
-tapping on the link, the user will be taken to their Unforced Pickleball app to
-submit the uploaded video for automated analysis.
+Your email should instruct the user that tapping this link will open the
+Unforced Pickleball app and allow them to submit the uploaded video for
+automated analysis. Here's an example of how the email could look:
+
+```
+... Heading, business icons, styling, etc ...
+To receive stats and analysis from Unforced Pickleball, tap <a href="https://unforcedpickleball.com/app-redirect?deep_link=unforcedpb%3A//new-match/video-analysis/abc-123.mp4">this link</a> to submit for processing.
+```
+
+Once this email has been sent, your job is done! The user will initiate the
+video upload request process, and receive the results in their app.
