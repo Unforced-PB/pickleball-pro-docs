@@ -75,6 +75,10 @@
     "value": "logo,insights,impact,improvement"
   },
   {
+    "key": "showOnboardingQuiz",
+    "value": "true"
+  },
+  {
     "key": "showOnboardingPaywall",
     "value": "false"
   },
