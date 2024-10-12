@@ -85,5 +85,9 @@
   {
     "key": "paywallOfferingId",
     "value": "Sale"
+  },
+  {
+    "key": "showMatchShareLink",
+    "value": "true",
   }
 ]
