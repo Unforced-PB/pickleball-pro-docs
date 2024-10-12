@@ -91,7 +91,7 @@
     "value": "true"
   },
   {
-    "key": "matchShareLinkUrl",
+    "key": "matchShareLinkUrlTemplate",
     "value": "https://unforcedpickleball.com/app-redirect?deep_link=unforcedpb://matches/{match_id}"
   }
 ]
