@@ -63,7 +63,7 @@
   },
   {
     "key": "automatedVideoAnalysis",
-    "value": "false",
+    "value": "true",
     "minVersion": "160"
   },
   {
